@@ -136,6 +136,7 @@ The game uses ES6 modules and follows a modular architecture:
 ## 🎉 Enjoy the Game!
 
 Have fun playing Vikasnagar Holi Shooter! Try different cousins to find your favorite playstyle and see if you can beat the high scores!
+> Made with Claude Code + Cursor by Dhruv
 
 ---
 
