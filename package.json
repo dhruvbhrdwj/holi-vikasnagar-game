@@ -1,0 +1,19 @@
+{
+  "name": "vikasnagar-holi-shooter",
+  "version": "1.0.0",
+  "description": "Three.js arcade shooter - Holi water gun game",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
+

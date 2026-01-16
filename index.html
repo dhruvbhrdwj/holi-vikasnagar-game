@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikasnagar Holi Shooter</title>
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game-canvas"></canvas>
+    
+    <!-- UI Overlay -->
+    <div id="ui-overlay">
+      <div id="score-display">Score: <span id="score">0</span></div>
+      <div id="timer-display">Time: <span id="timer">60</span>s</div>
+      <div id="ammo-display">Ammo: <span id="ammo">30</span></div>
+      
+      <div id="cousin-selector">
+        <div class="cousin" data-cousin="1">
+          <span class="key">1</span>
+          <span class="name">Dhruv</span>
+        </div>
+        <div class="cousin" data-cousin="2">
+          <span class="key">2</span>
+          <span class="name">Raghav</span>
+        </div>
+        <div class="cousin" data-cousin="3">
+          <span class="key">3</span>
+          <span class="name">Keshav</span>
+        </div>
+        <div class="cousin" data-cousin="4">
+          <span class="key">4</span>
+          <span class="name">Puru</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Crosshair -->
+    <div id="crosshair">+</div>
+    
+    <!-- Game Over Screen -->
+    <div id="game-over" class="hidden" style="display: none;">
+      <h1>Happy Holi!</h1>
+      <p>Final Score: <span id="final-score">0</span></p>
+      <p>High Score (<span id="cousin-name">Raju</span>): <span id="high-score">0</span></p>
+      <button id="restart-btn">Play Again</button>
+    </div>
+    
+    <!-- Start Screen -->
+    <div id="start-screen">
+      <h1>🎨 Vikasnagar Holi Shooter 🎨</h1>
+      <p>Spray colored water at targets from your verandah!</p>
+      <div class="instructions">
+        <p><strong>Controls:</strong></p>
+        <p>Mouse - Aim</p>
+        <p>Click - Shoot</p>
+        <p>WASD - Move around</p>
+        <p>Space - Jump</p>
+        <p>1-4 - Select cousin</p>
+        <p>R - Reload</p>
+      </div>
+      <button id="start-btn">Start Game</button>
+    </div>
+  </div>
+  
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
